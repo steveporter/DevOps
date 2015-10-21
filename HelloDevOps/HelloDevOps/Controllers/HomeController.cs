@@ -15,6 +15,7 @@ namespace HelloDevOps.Controllers
 
         public ActionResult About()
         {
+            // Comment to trigger build
             ViewBag.Message = "Your application description page.";
 
             return View();
